@@ -7,60 +7,66 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+<h2>
+    Vídeo apresentando o projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<a href="https://youtu.be/haohj4zzSJo">Video apresentando o projeto</a>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Sistema de Gerenciamento de Tarefas (API) - Laravel
 
-## Learning Laravel
+Este é um sistema de gerenciamento de tarefas baseado em uma API desenvolvido com Laravel. Ele permite que você crie, leia, atualize e delete tarefas, além de atribuir tarefas a usuários específicos.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Recursos
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+O sistema de gerenciamento de tarefas oferece os seguintes recursos:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Criação de tarefas
+- Listagem de todas as tarefas
+- Exibição de uma tarefa específica
+- Atualização de uma tarefa existente
+- Exclusão de uma tarefa
+- Atribuição de uma tarefa a um usuário específico
 
-## Laravel Sponsors
+## Tecnologias Utilizadas
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+O sistema de gerenciamento de tarefas foi desenvolvido utilizando as seguintes tecnologias:
 
-### Premium Partners
+- Laravel: framework PHP para desenvolvimento web
+- MySQL: banco de dados relacional
+- Eloquent ORM: mapeamento objeto-relacional para Laravel
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Configuração
 
-## Contributing
+Para configurar e executar o sistema de gerenciamento de tarefas, siga as etapas abaixo:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. Certifique-se de ter o PHP e o Composer instalados em seu sistema.
+2. Clone este repositório para o seu ambiente local.
+3. Navegue até o diretório raiz do projeto.
+4. Execute o comando `composer install` para instalar as dependências necessárias.
+5. Crie um arquivo `.env` na raiz do projeto e configure as informações do banco de dados. Um exemplo de configuração está disponível no arquivo `.env.example`.
+6. Execute o comando `php artisan key:generate` para gerar uma chave de aplicativo única.
+7. Execute o comando `php artisan migrate` para criar as tabelas do banco de dados.
+8. Execute o comando `php artisan serve` para iniciar o servidor.
 
-## Code of Conduct
+## Uso
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+A API oferece endpoints para interagir com o sistema de gerenciamento de tarefas. Aqui estão alguns exemplos:
 
-## Security Vulnerabilities
+- `GET /api/tasks`: Retorna todas as tarefas cadastradas.
+- `GET /api/tasks/{id}`: Retorna uma tarefa específica com base no ID fornecido.
+- `POST /api/tasks`: Cria uma nova tarefa. Envie os dados da tarefa no corpo da solicitação.
+- `PUT /api/tasks/{id}`: Atualiza uma tarefa existente com base no ID fornecido. Envie os dados atualizados no corpo da solicitação.
+- `DELETE /api/tasks/{id}`: Exclui uma tarefa com base no ID fornecido.
+- `POST /api/tasks/{id}/assign/{userId}`: Atribui uma tarefa a um usuário específico com base nos IDs fornecidos.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Certifique-se de fazer as solicitações HTTP corretas para cada endpoint, incluindo os parâmetros necessários.
 
-## License
+## Considerações Finais
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Este é um exemplo básico de um sistema de gerenciamento de tarefas baseado em uma API desenvolvido com Laravel. Você pode estender e personalizar o sistema de acordo com suas necessidades específicas.
+
+Lembre-se de que esta é apenas a documentação do sistema de gerenciamento de tarefas. Certifique-se de implementar as rotas e a lógica de negócios correspondentes no seu projeto Laravel.
+
+Divirta-se e aproveite o uso do Sistema de Gerenciamento de
