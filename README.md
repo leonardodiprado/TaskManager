@@ -9,14 +9,13 @@
 
 <h2>
     Vídeo apresentando o projeto
-
 </h2>
 
-<a href="https://youtu.be/haohj4zzSJo">Video apresentando o projeto</a>
+<a href="https://youtu.be/haohj4zzSJo">Vídeo apresentando o projeto</a>
 
 # Sistema de Gerenciamento de Tarefas (API) - Laravel
 
-Este é um sistema de gerenciamento de tarefas baseado em uma API desenvolvido com Laravel. Ele permite que você crie, leia, atualize e delete tarefas, além de atribuir tarefas a usuários específicos.
+Este é um sistema de gerenciamento de tarefas baseado em uma API desenvolvido com Laravel. Ele permite que você crie, leia, atualize e delete tarefas.
 
 ## Recursos
 
@@ -27,7 +26,6 @@ O sistema de gerenciamento de tarefas oferece os seguintes recursos:
 - Exibição de uma tarefa específica
 - Atualização de uma tarefa existente
 - Exclusão de uma tarefa
-- Atribuição de uma tarefa a um usuário específico
 
 ## Tecnologias Utilizadas
 
@@ -68,5 +66,3 @@ Certifique-se de fazer as solicitações HTTP corretas para cada endpoint, inclu
 Este é um exemplo básico de um sistema de gerenciamento de tarefas baseado em uma API desenvolvido com Laravel. Você pode estender e personalizar o sistema de acordo com suas necessidades específicas.
 
 Lembre-se de que esta é apenas a documentação do sistema de gerenciamento de tarefas. Certifique-se de implementar as rotas e a lógica de negócios correspondentes no seu projeto Laravel.
-
-Divirta-se e aproveite o uso do Sistema de Gerenciamento de
